@@ -9,13 +9,16 @@
 
 # Requirements:
 
-install ros2
+install ros2:
+
 https://docs.ros.org/en/crystal/Installation/Linux-Install-Binary.html
 
-install turtlebot3 package
+install turtlebot3 package:
+
 sudo apt install ros-humble-turtlebot3*
 
-install usb_cam package
+install usb_cam package:
+
 cd ~/ros2_ws/src
 git clone --branch ros2 https://github.com/ros-drivers/usb_cam.git
 cd ..
