@@ -31,11 +31,13 @@ source install/setup.bash
 
 # Tutorial odpalenia:
 Terminal 1 (uruchomienie węzła kamery):
+
 cd ~/ros2_ws 
 source install/setup.bash
 ros2 run usb_cam usb_cam_node_exe
 
 Terminal 2 (uruchomienie robota i środowiska symulacyjnego):
+
 cd ~/ros2_ws 
 source install/setup.bash
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:`ros2 pkg \
@@ -44,6 +46,7 @@ prefix turtlebot3_gazebo \
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 
 Terminal 3 (uruchomienie węzła do detekcji znaczników i sterowania robotem):
+
 cd ~/ros2_ws 
 source install/setup.bash
 ros2 run aruco aruco_detect
