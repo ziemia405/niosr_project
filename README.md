@@ -7,7 +7,7 @@
 - [x] obsługa pliku video
 - [x] implementacja pod środowisko ROS i testy
 
-#Requirements:
+# Requirements:
 install ros2
 https://docs.ros.org/en/crystal/Installation/Linux-Install-Binary.html
 
@@ -44,5 +44,3 @@ cd ~/ros2_ws
 source install/setup.bash
 ros2 run aruco aruco_detect
 
-
-# done projekt
